@@ -391,7 +391,7 @@ fun FormatItem(
                 Icon(
                     imageVector = Icons.Rounded.Videocam,
                     tint = outlineColor,
-                    contentDescription = stringResource(id = R.string.video),
+                    contentDescription = stringResource(id = R.string.video_with_audio),
                     modifier = Modifier.size(16.dp),
                 )
             if (containsAudio)
@@ -514,7 +514,7 @@ fun LazyGridScope.FormatPreviewContent(selected: Int = 0, onClick: (Int) -> Unit
     }
     item(span = { GridItemSpan(maxLineSpan) }) {
         FormatSubtitle(
-            text = stringResource(R.string.video),
+            text = stringResource(R.string.video_with_audio),
             color = MaterialTheme.colorScheme.secondary,
             modifier = Modifier.padding(top = 12.dp, bottom = 4.dp).padding(horizontal = 12.dp),
         )

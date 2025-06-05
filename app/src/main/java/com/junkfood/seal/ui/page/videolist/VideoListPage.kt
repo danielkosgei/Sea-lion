@@ -185,7 +185,7 @@ fun VideoListPage(viewModel: VideoListViewModel = koinViewModel(), onNavigateBac
                 VideoFilterChip(
                     selected = viewState.videoFilter,
                     onClick = { viewModel.clickVideoFilter() },
-                    label = stringResource(id = R.string.video),
+                    label = stringResource(id = R.string.video_with_audio),
                 )
                 if (filterSet.size > 1) {
                     VerticalDivider(

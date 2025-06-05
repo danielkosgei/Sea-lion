@@ -199,7 +199,7 @@ fun DownloadFormatPreferences(onNavigateBack: () -> Unit, navigateToSubtitlePage
                         PreferenceUtil.updateValue(CROP_ARTWORK, isArtworkCroppingEnabled)
                     }
                 }
-                item { PreferenceSubtitle(text = stringResource(id = R.string.video)) }
+                item { PreferenceSubtitle(text = stringResource(id = R.string.video_with_audio)) }
                 item {
                     PreferenceItem(
                         title = stringResource(R.string.video_format_preference),

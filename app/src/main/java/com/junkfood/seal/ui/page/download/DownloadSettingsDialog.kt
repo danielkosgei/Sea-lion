@@ -122,7 +122,7 @@ private fun DownloadType.label(): String =
     stringResource(
         when (this) {
             DownloadType.Audio -> R.string.audio
-            DownloadType.Video -> R.string.video
+            DownloadType.Video -> R.string.video_with_audio
             DownloadType.Command -> R.string.commands
             DownloadType.Playlist -> R.string.playlist
         }

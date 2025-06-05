@@ -707,7 +707,7 @@ private fun FormatPageImpl(
                         modifier = Modifier.padding(top = 16.dp).padding(horizontal = 12.dp),
                     ) {
                         FormatSubtitle(
-                            text = stringResource(R.string.video),
+                            text = stringResource(R.string.video_with_audio),
                             modifier = Modifier.weight(1f).padding(vertical = 4.dp),
                         )
                         ClickableTextAction(

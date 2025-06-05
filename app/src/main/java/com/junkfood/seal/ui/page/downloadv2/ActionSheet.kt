@@ -460,7 +460,7 @@ fun ActionSheetInfo(modifier: Modifier = Modifier, task: Task, viewState: ViewSt
                 val bitRateText = fmt.vbr.toBitrateText()
                 val codecText = fmt.vcodec?.substringBefore(delimiter = ".") ?: ""
 
-                val title = "${stringResource(R.string.video)} #$index: ${fmt.formatNote}"
+                val title = "${stringResource(R.string.video_with_audio)} #$index: ${fmt.formatNote}"
                 val details =
                     listOf(codecText, fmt.resolution, bitRateText, fileSizeText)
                         .filterNot { it.isNullOrBlank() }

@@ -150,7 +150,7 @@ private fun DownloadType.label(): String =
     stringResource(
         when (this) {
             Audio -> R.string.audio
-            Video -> R.string.video
+            Video -> R.string.video_with_audio
             Command -> R.string.commands
             Playlist -> R.string.playlist
         }

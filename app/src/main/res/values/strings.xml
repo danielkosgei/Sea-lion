@@ -45,7 +45,7 @@
     <string name="release">Latest release</string>
     <string name="readme_desc">Check the GitHub repository and the README</string>
     <string name="readme" translatable="false">README</string>
-    <string name="video">Video</string>
+    <string name="video_with_audio">Video + Audio</string>
     <string name="checked">Checked</string>
     <string name="credits">Credits</string>
     <string name="credits_desc">Credits and libre software</string>
